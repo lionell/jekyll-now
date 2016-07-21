@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/new.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section class='full-width'>
+      <canvas id='stream'></canvas>
+    </section>
+
+    {{ content }}
+
+    <footer class='body-width'>
+      <span>Me &copy; 2016<span>
+    </footer>
+
+    <script type='text/javascript' src='{{ site.baseurl }}/matter.js'></script>
+
+    {% include analytics.html %}
+  </body>
+</html>

@@ -1,18 +1,89 @@
 ---
-layout: default
+layout: portfolio
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<section id='preface' class='body-width'>
+  <h1>Ruslan Sakevych</h1>
+  <p>Enjoys adding useles events to <a href='#'>calendar</a> and keep trying to have a <a href='{{ site.baseurl }}/blog'>blog</a>.</p>
+</section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<section id='subsections' class='body-width'>
+  <article class='subsection'>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href='#'>Code Machines</a></li>
+      <li><a href='#'>Sequential Method</a></li>
+      <li><a href='#'>Neural Networks</a></li>
+      <li><a href='#'>Smart Pacmans</a></li>
+    </ul>
+  </article>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  <article class='subsection'>
+    <h2>Java</h2>
+    <ul>
+      <li><a href='#'>Guava</a></li>
+      <li><a href='#'>JUnit, Truth</a></li>
+      <li><a href='#'>Spring, Guice</a></li>
+      <li><a href='#'>Maven, Bazel</a></li>
+    </ul>
+  </article>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  <article class='subsection'>
+    <h2>Machine Learning</h2>
+    <ul>
+      <li><a href='#'>pandas, NumPy</a></li>
+      <li><a href='#'>scikit-learn</a></li>
+      <li><a href='#'>matplotlib</a></li>
+      <li><a href='#'>Nvidia DIGITS</a></li>
+    </ul>
+  </article>
+
+  <article class='subsection'>
+    <h2>Technologies</h2>
+    <ul>
+      <li><a href='#'>MapReduce</a></li>
+      <li><a href='#'>SQL, BigQuery</a></li>
+      <li><a href='#'>Protocol Buffers</a></li>
+      <li><a href='#'>gRPC</a></li>
+    </ul>
+  </article>
+
+  <article class='subsection'>
+    <h2>Other</h2>
+    <ul>
+    	<li><a href='#'>golang</a></li>
+      <li><a href='#'>reveal.js, D3.js</a></li>
+      <li><a href='#'>XNA Game Studio</a></li>
+      <li><a href='#'>LaTeX</a></li>
+    </ul>
+  </article>
+
+  <article class='subsection'>
+    <h2>Competitions</h2>
+    <ul>
+      <li><a href='#'>TopCoder</a></li>
+      <li><a href='#'>Codeforces</a></li>
+      <li><a href='#'>Kaggle</a></li>
+    </ul>
+  </article>
+
+  <article class='subsection'>
+    <h2>Hobby</h2>
+    <ul>
+      <li><a href='#'>Lections</a></li>
+      <li><a href='#'>Touch typing</a></li>
+      <li><a href='#'>Volleyball</a></li>
+    </ul>
+  </article>
+</section>
+
+<section id='later' class='body-width'>
+  <article class='halfsection'>
+    <h1>Currently</h1>
+    <p>Working as Software Engineering Inter @ Google, exploring Sillicon Valley, spending money on trips.</p>
+  </article>
+  <article class='halfsection'>
+    <h1>Contact</h1>
+    <p><a href='mailto:xlionell@gmail.com'>Email</a> is the easiest way to get in touch, but I'm also on <a href='https://twitter.com/maxmclau'>Facebook</a>. Visit my <a href='#'>GitHub</a>.</p>
+  </article>
+</section>
